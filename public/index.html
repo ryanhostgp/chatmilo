@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Chat</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h1>Online Chatroom</h1>
+  
+  <div id="chat-container"></div>
+  
+  <form id="message-form">
+    <input type="text" id="message-input" placeholder="Enter your message..." />
+    <button type="submit">Send</button>
+  </form>
+  
+  <button id="name-changer">Change Name</button>
+  <script src="/socket.io/socket.io.js"></script>
+<script src="chat.js"></script>
+</body>
+</html>
